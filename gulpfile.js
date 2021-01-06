@@ -14,7 +14,7 @@ const DEF_OPTION = {
   ignoreExist: false, // 是否跳过已经存在的文件
   Region: 'oss-cn-beijing',
   Bucket: 'chobits',
-  prefix: 'gulp-cho-alioss',
+  prefix: 'gulp-cho-txoss',
 };
 
 gulp.task('test', () => {

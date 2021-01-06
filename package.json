@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ChobitsSP/gulp-cho-alioss.git"
+    "url": "git://github.com/ChobitsSP/gulp-cho-txoss.git"
   },
   "keywords": [
     "gulpplugin"
@@ -19,7 +19,7 @@
   "author": "Chobits",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChobitsSP/gulp-cho-alioss/issues"
+    "url": "https://github.com/ChobitsSP/gulp-cho-txoss/issues"
   },
   "engines": {
     "node": ">=0.10"

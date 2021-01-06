@@ -1,17 +1,17 @@
-# gulp-cho-alioss
+# gulp-cho-txoss
 https://www.npmjs.com/package/ali-oss
 
 ## Usage
 
 ```shell
-npm install --save-dev gulp-cho-alioss
+npm install --save-dev gulp-cho-txoss
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ### Simple
 ```javascript
-var alias = require('gulp-cho-alioss');
+var alias = require('gulp-cho-txoss');
 
 gulp.task('test', () => {
   return gulp.src('dist/**/*', { base: 'dist' })
@@ -20,7 +20,7 @@ gulp.task('test', () => {
       accessKeyId: 'accessKeyId',
       accessKeySecret: 'accessKeySecret',
       bucket: 'chobits',
-      prefix: 'gulp-cho-alioss',
+      prefix: 'gulp-cho-txoss',
       ignoreExist: false,
       putOptions: {}
     }));
