@@ -18,7 +18,7 @@ const DEF_OPTION = {
 };
 
 gulp.task('test', () => {
-  const config = require('./test.json');
+  const config = DEF_OPTION;
 
   return gulp.src('src/**/*.js', { base: 'src' }).pipe(
     alias(config)
