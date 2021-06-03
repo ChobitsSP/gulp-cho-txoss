@@ -59,7 +59,7 @@ function getFileKey(file, prefix) {
   var str = file.path
     .replace(file.cwd, '')
     .replace(/\\/g, '/')
-    .replace(file.base, '')
+    .replace(file.base.replace(/\\/g, '/'), '')
     .replace(/^\/+/, '');
 
   return (

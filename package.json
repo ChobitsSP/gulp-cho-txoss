@@ -1,6 +1,6 @@
 {
   "name": "gulp-cho-txoss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp Task to transform Typescript path imports into relative paths using the tsconfig",
   "main": "index.js",
   "devDependencies": {
