@@ -77,7 +77,7 @@ async function uploadFile(client, ossPath, file) {
   try {
     await client.head(ossPath);
   } catch (err) {
-    if (err.message === 'Object not exists') {
+    if (err.code === '404' || err.message === 'Object not exists') {
       return client.put(ossPath, file);
     } else {
       throw err;
